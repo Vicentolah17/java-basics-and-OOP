@@ -23,6 +23,5 @@ public class Main2 {
         System.out.printf("DIAGONAL = "+r.diagonal());
 
 
-
     }
 }

@@ -1,6 +1,5 @@
 package application;
 import entities.Product;
-
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -20,7 +19,7 @@ public class Program {
 
         System.out.println();
         System.out.println("Product Data: " + product);
-
+ 
         System.out.println();
         System.out.println("Enter the number of products you want to add: ");
         int quantity = sc.nextInt();
@@ -37,7 +36,7 @@ public class Program {
         System.out.println();
         System.out.println("Updated Data: " + product);
 
-
         sc.close();
     }
 }
+//alex green, final grade, pass failed missing; 60% from notes; JSilva;

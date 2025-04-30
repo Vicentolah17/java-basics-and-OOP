@@ -13,6 +13,7 @@ public class Rectangle {
         return 2 * (w * h);
     }
 
+
     public double diagonal(){
         p=Math.sqrt(Math.pow(w,2) + Math.pow(h,2));
         return p;
