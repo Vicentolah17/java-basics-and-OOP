@@ -7,24 +7,21 @@ public class Program5 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-
         Rent [] vect = new Rent[10];
-
 
         System.out.println("How many rooms will be rented?");
         int n = sc.nextInt();
 
-        for (int i = 1; i < n; i++) {
-            System.out.println(" Rent#" + i + ":");
-            System.out.println("Name: ");
+        for (int i = 0; i < n; i++) {
+            System.out.println("Rent #" + (i+1) + ":");
+            System.out.print("Name: ");
             sc.nextLine();
             String namee = sc.nextLine();
-            System.out.println("Email: ");
+            System.out.print("Email: ");
             String emaill =sc.next();
-            System.out.println("Room number: ");
+            System.out.print("Room number: ");
             int roomNumber = sc.nextInt();
 
-            Rent rent = new Rent(namee,emaill);
             vect [roomNumber] = new Rent(namee,emaill);
         }
 
