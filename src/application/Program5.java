@@ -33,7 +33,6 @@ public class Program5 {
             }
         }
 
-
         sc.close();
     }
 }
