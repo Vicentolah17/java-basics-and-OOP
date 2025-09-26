@@ -43,7 +43,6 @@ public class ExercicioPropostoLista {
             list.get(pos).increaseSalary(percent);
 
         }
-
         System.out.println();
         System.out.println("List of employees: ");
         for (Funcionarios emp : list){
