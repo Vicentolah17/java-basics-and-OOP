@@ -1,38 +1,38 @@
-# ☕ Java POO - Estudos com Curso da Udemy
+# Java OOP – Practice Projects from Udemy Course
 
-Este repositório contém exercícios de prática em **Java com Programação Orientada a Objetos (POO)**, feitos durante meus estudos com um curso da Udemy.
+This repo includes a bunch of **Java exercises focused on Object-Oriented Programming (OOP)** that I worked on while taking a Udemy course.
 
-## 📚 Sobre
+## About
 
-O objetivo deste repositório é consolidar os principais conceitos de POO utilizando Java, incluindo:
+The main goal here is to practice and understand the core concepts of OOP using Java, like:
 
-- Encapsulamento
-- Construtores
-- Sobrecarga de métodos
-- `getters` e `setters`
-- Composição de objetos
-- Estruturação de classes e métodos
+- Encapsulation  
+- Constructors  
+- Method overloading  
+- `getters` and `setters`  
+- Object composition  
+- Organizing classes and methods  
 
-Trata-se de um ambiente de **estudo pessoal**, e não de um projeto finalizado ou com fins profissionais.
+It’s basically my **personal study space**, not a finished or professional project.
 
-## 🧠 Curso utilizado
+## Course
 
-Curso de Java Completo na Udemy (Java 2023 - do zero ao profissional)  
-📎 *Este repositório acompanha os exercícios propostos ao longo das aulas.*
+Based on the Udemy course *“Java 2023 – From Zero to Professional.”*  
+📎 *These are exercises and examples that follow the course lessons.*
 
-## 💻 Estrutura
+## Project Structure
 
-Os códigos estão organizados por pacotes, geralmente com:
+The code is organized into packages, usually like this:
 
-- `entities` → Classes de domínio (ex: `Product`, `Holder`, etc)
-- `application` → Classe `main` para execução dos testes
+- `entities` → Domain classes (e.g., `Product`, `Holder`, etc.)  
+- `application` → The `main` class where I run the examples/tests  
 
-## ⚠️ Aviso
+## Note
 
-Este repositório é **apenas para fins de aprendizado**. Os códigos podem conter soluções simples ou alternativas voltadas ao ensino gradual dos conceitos de orientação a objetos em Java.
+This repo is **just for learning purposes** — some of the code is simple or experimental, since the idea is to learn step by step and get comfortable with OOP in Java.
 
-## 🚀 Como executar
+## How to Run
 
-1. Clone o repositório:
+1. Clone the repo:
    ```bash
    git clone https://github.com/Vicentolah17/JavaUdemy.git
